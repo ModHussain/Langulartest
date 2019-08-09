@@ -1,0 +1,32 @@
+<div class="container pt-3">
+       
+  <div class="row justify-content-sm-center">
+    <div class="col-sm-6 col-md-4">
+
+      <div class="card border-info text-center">
+        <div class="card-header">
+          <h4 class="text-center">Login </h4>
+        </div>
+        <div class="card-body">
+          <img src="./img/login1.png">
+         
+            <div class="alert alert-success" style="margin-top: 15px;">
+              <span style="font-size: 14px">Email :test@gmail.com</span><br>
+              <span style="font-size: 14px">Pwd :test</span>
+            </div>
+          <form class="form-signin" ng-submit="login(log)">
+            <input type="text" class="form-control mb-2" ng-model="log.email" placeholder="Email" required autofocus>
+            <input type="password" class="form-control mb-2" ng-model="log.password" placeholder="Password" required>
+            <button class="btn btn-lg btn-primary btn-block mb-1" type="submit">Sign in</button>
+            
+           
+          </form>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<hr>
+
